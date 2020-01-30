@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>displaying time and dates</title>
+</head>
+<body>
+<h1>current time and date</h1>
+<p>
+<script language="JavaScript" type="text/javascript">
+now= new Date();
+localtime=now.toString();
+utctime =now.toGMTString();
+document.write("<b>local time:</b>" + localtime +"<BR>);
+document.write("<b>UTC time:</b>" + utctime);
+</script>
+</p>
+</body>
+</html>
